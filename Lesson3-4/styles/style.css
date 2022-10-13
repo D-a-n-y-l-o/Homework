@@ -1,12 +1,18 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
 .header{
     margin: 53px 0px 52px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
     max-width: 1300px;
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .nav_ul{
@@ -74,7 +80,6 @@
 
 .wide_container{
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
     position: relative;
 }
 
