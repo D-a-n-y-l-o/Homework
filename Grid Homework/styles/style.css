@@ -1,0 +1,42 @@
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 100px);
+}
+
+.item{
+    background-color: rgba(51, 11, 208, 1);
+    ;
+}
+
+.item:nth-child(1){
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: rgba(255, 104, 213, 1);
+
+}
+
+.item:nth-child(2), .item:nth-child(3), .item:nth-child(7){
+    grid-column: span 2;
+    background-color: rgba(35, 236, 249, 1);
+
+}
+
+.item:nth-child(4){
+    grid-column: span 5;
+    background-color: rgba(248, 0, 0, 1);
+
+}
+
+.item:nth-child(5){
+    grid-row: span 2;
+    background-color: rgba(35, 236, 249, 1);
+}
+
+.item:nth-child(10){
+    grid-column: span 3;
+    background-color: rgba(141, 255, 101, 1);
+
+}
+
