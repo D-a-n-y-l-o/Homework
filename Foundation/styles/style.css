@@ -205,7 +205,7 @@ body{
 }
 
 .communication_image{
-   animation-name: Rotate3d;
+   animation-name: Move;
    animation-duration: 3s;
 }
 
